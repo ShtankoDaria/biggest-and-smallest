@@ -6,8 +6,8 @@ let newValue =  document.getElementById('input').value;
   // read from state the data you will need for the next step
   numbers.all.push(newValue);
   // find the new biggest and smallest values
-  let big = Math.max(...numbers.all); 
-  let small = Math.min(...numbers.all);
+  const big = Math.max(...numbers.all); 
+  const small = Math.min(...numbers.all);
  
 
   // update state: new biggest, new smallest, new current & save the last current
